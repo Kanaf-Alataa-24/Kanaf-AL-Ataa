@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ar"  dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-4.0.0.js"></script>
+    <title>قائمة الوجبات _ كنف العطاء</title>
+</head>
+
+<body>
+    <div class="main-container full-width-container">
+        <header class="modern-header">
+            <div class="logo">
+                <h1>كنف العطاء</h1>
+            </div>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="Home.html">الرئيسية</a></li>
+                    <li><a href="AboutUs.html">من نحن</a></li>
+                    <li><a href="Meals.html">قائمة الوجبات</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="section-title">
+                <h2>قائمة الوجبات المميزة</h2>
+            </div>
+
+            <div class="table-wrapper">
+                <table class="menu-table">
+                    <thead>
+                        <tr>
+                            <th>الرمز</th>
+                            <th>الوجبة</th>
+                            <th>السعر</th>
+                            <th>التفاصيل</th>
+                            <th>اختيار</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>M111</td>
+                            <td>بوكس وجبات السعادة</td>
+                            <td>130000</td>
+                            <td><input type="checkbox" class="detail-check" data-target="detail1"></td>
+                            <td><input type="radio" name="mealSelect[]" value=" Happiness_Box _130000"
+                               data-price="130000"></td>
+                        </tr>
+                        <tr id="detail1" class="hidden">
+                            <td colspan="5">
+                                <div class="details-container">
+                                    <ul class="details-list">
+                                        <li>
+                                            <h3>المكونات:</h3> قطع كرسبي دجاج مقرمشة _ صمون برغر طازج _ بطاطا مقلية ذهبية _  صوص مايونيز الثوم الشهير
+                                        </li>
+                                        <li>
+                                            <h3>الفئة:</h3> الوجبات السريعة 
+                                        </li>
+                                        <li>
+                                            <h3>عن الوجبة:</h3> بوكس متكامل يجمع بين القرمشة والطعم الغني وجبة مثالية لمشاركتها مع من تحب .
+                                        </li>
+                                    </ul>
+                                    <div class="details-images">
+                                        <img class="meal-image" src="images/M111.PNG" alt="بوكس وجبات السعادة">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>M222</td>
+                            <td>مشاوي مشكلة</td>
+                            <td>280000</td>
+                            <td><input type="checkbox" class="detail-check" data-target="detail2"></td>
+                            <td><input type="radio" name="mealSelect[]" value="Mixed_Grill - 280000"
+                                    data-price="280000"></td>
+                        </tr>
+                        <tr id="detail2" class="hidden">
+                            <td colspan="5">
+                                <div class="details-container">
+                                    <ul class="details-list">
+                                        <li>
+                                            <h3>المكونات:</h3> كباب بلدي_ شيش طاووق _ بطاطا مقلية مقرمشة_ ومقبلات متنوعة
+                                        </li>
+                                        <li>
+                                            <h3>الفئة:</h3> المشاوي الشرقية
+                                        </li>
+                                        <li>
+                                            <h3>عن الوجبة:</h3> لوحة فنية من المشاوي المتبلة بخلطتنا السرية تقدم ساخنة لتعطيك طعم مميز 
+                                        </li>
+                                    </ul>
+                                    <div class="details-images">
+                                        <img class="meal-image" src="images/M222.PNG" alt="مشاوي مشكلة">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>M333</td>
+                            <td>كبة دمشقية</td>
+                            <td>85000</td>
+                            <td><input type="checkbox" class="detail-check" data-target="detail3"></td>
+                            <td><input type="radio" name="mealSelect[]" value="Kibbeh_Plate - 85000"
+                                    data-price="85000"></td>
+                        </tr>
+                        <tr id="detail3" class="hidden">
+                            <td colspan="5">
+                                <div class="details-container">
+                                    <ul class="details-list">
+                                        <li>
+                                            <h3>المكونات:</h3> برغل ناعم فاخر _ لحم غنم بلدي_ جوز _ صنوبر _ بهارات 
+                                        </li>
+                                        <li>
+                                            <h3>الفئة:</h3> مقبلات شرقية دمشقية
+                                        </li>
+                                        <li>
+                                            <h3>عن الوجبة:</h3> صحن يحتوي على 10 قطع من الكبة المقلية المقرمشة محضرة بكل حب لتكون جزءاً من عطائكم للأيتام
+                                        </li>
+                                    </ul>
+                                    <div class="details-images">
+                                        <img class="meal-image" src="images/M333.PNG" alt="كبة دمشقية">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>M444</td>
+                            <td>تبولة</td>
+                            <td>36000</td>
+                            <td><input type="checkbox" class="detail-check" data-target="detail4"></td>
+                            <td><input type="radio" name="mealSelect[]" value="Tabbouleh - 36000"
+                                    data-price="36000"></td>
+                        </tr>
+                        <tr id="detail4" class="hidden">
+                            <td colspan="5">
+                                <div class="details-container">
+                                    <ul class="details-list">
+                                        <li>
+                                            <h3>المكونات:</h3> بقدونس طازج _ نعناع _ برغل ناعم _ طماطم _ زيت زيتون _ عصير ليمون حامض
+                                        </li>
+                                        <li>
+                                            <h3>الفئة:</h3> المقبلات والسلطات
+                                        </li>
+                                        <li>
+                                            <h3>عن الوجبة:</h3> طبق منعش يحضر يومياً بمكونات طازجة 
+                                        </li>
+                                    </ul>
+                                    <div class="details-images">
+                                        <img class="meal-image" src="images/M444.PNG" alt="تبولة">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>M555</td>
+                            <td>منسف كبسة</td>
+                            <td>300000</td>
+                            <td><input type="checkbox" class="detail-check" data-target="detail5"></td>
+                            <td><input type="radio" name="mealSelect[]" value="Kabsa - 300000"
+                                    data-price="300000"></td>
+                        </tr>
+                        <tr id="detail5" class="hidden">
+                            <td colspan="5">
+                                <div class="details-container">
+                                    <ul class="details-list">
+                                        <li>
+                                            <h3>المكونات:</h3> أرز حبة طويلة _ دجاج محمر بالتوابل _ مكسرات محمصة كاجو لوز _ ليمون
+                                        </li>
+                                        <li>
+                                            <h3>الفئة:</h3> الوجبات الرئيسية الكبرى
+                                        </li>
+                                        <li>
+                                            <h3>عن الوجبة:</h3> منسف كبير يكفي العائلة يجمع بين كرم الضيافة والنكهة اللذيذة
+                                        </li>
+                                    </ul>
+                                    <div class="details-images">
+                                        <img class="meal-image" src="images/M555.PNG" alt="منسف كبسة عائلي">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="continue-area">
+                <button id="continueButton" class="button">متابعة الطلب</button>
+            </div>
+
+            <div id="formContainer" class="hidden">
+                <div class="section-title">
+                    <h2>المعلومات والتفاصيل</h2>
+                </div>
+                <form id="orderForm">
+                    <div class="form-row">
+                        <label for="fullName">الاسم باللغة الإنكليزية:</label>
+                        <input type="text" id="fullName" name="fullName" placeholder="ادخل اسمك الكريم" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="orderDate">تاريخ الطلب:</label>
+                        <input type="date" id="orderDate" name="orderDate" placeholder="mmm/ddd/yyy" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="mobile">رقم التواصل (سوريا):</label>
+                        <input type="tel" id="mobile" name="mobile" pattern="09\{8}" placeholder="09xxxxxxxx" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="bankAccount">رقم الحساب البنكي(من 6 أرقام):</label>
+                        <input type="text" id="bankAccount" name="bankAccount" required pattern="\d{6}">
+                    </div>
+                    <div class="action-area">
+                        <button type="submit" class="button">تأكيد الطلب</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <script src="myFunctions.js"></script>
+</body>
+
+</html>
